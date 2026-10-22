@@ -1,0 +1,26 @@
+{
+  "target": "Credit_Score == 'Poor' (1) vs Standard/Good (0)",
+  "seed": 42,
+  "n_rows_train": 79992,
+  "n_rows_test": 20008,
+  "n_customers_train": 9999,
+  "n_customers_test": 2501,
+  "share_poor_train": 0.29000400040004,
+  "share_poor_test": 0.28988404638144744,
+  "auc_train": 0.813540086336924,
+  "auc_test": 0.8129987112651444,
+  "gini_test": 0.6259974225302889,
+  "ks_test": 0.5307862496116806,
+  "brier_test": 0.14961542776351064,
+  "brier_reference_constant": 0.20585130042393288,
+  "precision_test_at_0.5": 0.6867951127819549,
+  "recall_test_at_0.5": 0.5039655172413793,
+  "psi_score_train_vs_test": 0.0009196362729403047,
+  "psi_top5_variables": {
+    "Monthly_Inhand_Salary": 0.0030691188842441553,
+    "Annual_Income": 0.004738565423432012,
+    "Credit_Mix": 0.0005438548230779982,
+    "Payment_of_Min_Amount": 0.0005183864369686013,
+    "Changed_Credit_Limit": 0.0021727680660940064
+  }
+}

@@ -1,0 +1,9 @@
+data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+kaggle.json
+.env
+credit_score_ML
