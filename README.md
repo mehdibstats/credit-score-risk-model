@@ -6,7 +6,7 @@ Projet de data science : prédire le score de crédit (**Good**, **Standard**, *
 
 - `train.csv` : 100 000 lignes, 12 500 clients, 8 mois par client (janvier à août), avec la cible `Credit_Score`.
 - `test.csv` : 50 000 lignes, les mêmes clients sur 4 mois (septembre à décembre), sans la cible.
-- Les fichiers ne sont pas inclus dans ce dépôt. Jeu de données : *Credit score classification* (Kaggle), à placer à la racine du projet.
+- Les fichiers ne sont pas inclus dans ce dépôt. Jeu de données : [*Credit score classification* (Kaggle)](https://www.kaggle.com/datasets/parisrohan/credit-score-classification), à placer à la racine du projet.
 
 Répartition des classes : Standard 53 %, Poor 29 %, Good 18 %.
 
@@ -34,9 +34,13 @@ Modèle final : accuracy 0,71, macro-F1 0,69, AUC 0,86 (référence « toujours 
 | Poor | 0,73 | 0,66 | 0,69 |
 | Standard | 0,75 | 0,75 | 0,75 |
 
+![Matrice de confusion](reports/figures/confusion_matrix.png)
+
 ## Variables les plus importantes (importance par permutation)
 
 `Credit_Mix`, `Interest_Rate`, retard moyen de paiement (`Delay_from_due_date_mean`), `Num_Credit_Card`, `Outstanding_Debt`.
+
+![Importance des variables](reports/figures/feature_importance.png)
 
 ## Limites
 
