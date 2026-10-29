@@ -1,9 +1,12 @@
-data/
-__pycache__/
-*.pyc
+# Données (contiennent noms et SSN, non publiables)
+*.csv
+
+# Modèle entraîné et sorties
+*.joblib
+submission.csv
+
+# Outils / éditeur
+.qodo/
+.vscode/
 .ipynb_checkpoints/
-.venv/
-venv/
-kaggle.json
-.env
-credit_score_ML
+__pycache__/
